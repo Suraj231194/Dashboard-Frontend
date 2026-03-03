@@ -56,7 +56,7 @@ function CircularProgress({ value, label }) {
 
 function StepTracker({ steps, activeStep }) {
   return (
-    <div className="w-full overflow-x-auto pb-1">
+    <div className="w-full overflow-x-auto pb-3 pt-3">
       <div className="flex min-w-max items-center gap-3 md:grid md:min-w-0 md:grid-cols-5 md:gap-1">
         {steps.map((step, index) => {
           const Icon = stepIcons[step]
